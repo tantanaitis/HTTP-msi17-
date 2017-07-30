@@ -1,0 +1,18 @@
+{
+  "name": "http-presentation",
+  "version": "1.0.0",
+  "description": "msi17 http presentation",
+  "main": "index.js",
+  "scripts": {
+    "prod": "lite-server"
+  },
+  "author": "titant",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "slick-carousel": "^1.6.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}

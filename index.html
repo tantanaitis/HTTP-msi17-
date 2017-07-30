@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="node_modules/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="node_modules/slick-carousel/slick/slick-theme.css">
+  <style type="text/css">
+    .fullwidth {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: initial;
+    }
+    .slider {margin: 0;}
+    .slider .slide {
+      width: 100vh; height: 95vh;
+      outline: 0;
+      background-color: #ffffff;
+      position: relative;
+      font-size: x-large;
+    }
+
+    .slide ul li {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    .slide-heading {
+      text-align: center;
+      padding-bottom: 20px
+    }
+
+    .slick-next {
+      right: 0;
+    }
+    .slick-dots {
+      bottom: 0px;
+      margin-left: 0; /* Fixes the visible horizontal scroll bar */
+    }
+    .tieto-logo {
+      position: absolute;
+      bottom: -2px;
+      right: -2px;
+      height: 50vh;
+    }
+    .centered-img {
+      margin: 0 auto;
+      display: block;
+    }
+    #sample-link-explained {
+      display: none;
+    }
+  </style>
+</head>
+<body style="margin: 0; font-family: Helvetica Neue">
+  <div class="row fullwidth">
+    <div class="columns small-12 slider">
+      <div class="slide">
+        <h1 class="slide-heading">Apie mane</h1>
+        <ul>
+          <li>Titas Antanaitis</li>
+          <li>Praeitų metų „Mėnuo su IT“ dalyvis</li>
+          <li>Dirbu „Java“ programuotoju apie 3 metus</li>
+          <li>„Tieto Lietuva“ dirbu beveik metus</li>
+        </ul>
+        <img class="tieto-logo" src="images/Tieto.png"/>
+      </div>
+      <div class="slide">
+        <h1 class="slide-heading">HTTP protokolas</h1>
+        <ul>
+          <li>Hyper text transfer protocol</li>
+        </ul>
+        <img class="tieto-logo" src="images/Tieto.png"/>
+      </div>
+      <div class="slide">
+        <h1 class="slide-heading">HTTP bendravimas</h1>
+        <img class="centered-img" src="images/0027_ADW1.png"/>
+        <img class="tieto-logo" src="images/Tieto.png"/>
+      </div>
+      <div class="slide">
+        <h1 class="slide-heading">URL</h1>
+        <img id="sample-link" class="centered-img" src="images/linkSample.png"/>
+        <img id="sample-link-explained" class="centered-img" src="images/linkSampleExplained.png"/>
+        <img class="tieto-logo" src="images/Tieto.png"/>
+      </div>
+      <div class="slide">
+        <h1 class="slide-heading">HTTP metodai</h1>
+        <ul>
+          <li>GET</li>
+          <li>POST</li>
+          <li>PUT</li>
+          <li>DELETE</li>
+        </ul>
+        <img class="tieto-logo" src="images/Tieto.png"/>
+      </div>
+      <div class="slide">
+        <h1 class="slide-heading">HTTP headeriai</h1>
+        <ul>
+          <li>Content-Type (application/json)</li>
+          <li>Accept (application/json)</li>
+        </ul>
+        <img class="tieto-logo" src="images/Tieto.png"/>
+      </div>
+      <div class="slide">
+        <h1 class="slide-heading">HTTP statuso kodai</h1>
+        <ul>
+          <li>2** Sėkmingi (200)</li>
+          <li>3** Peradresavimas (304)</li>
+          <li>4** Kliento klaida (404)</li>
+          <li>5** Serverio klaida (500)</li>
+        </ul>
+        <img class="tieto-logo" src="images/Tieto.png"/>
+      </div>
+      <div class="slide">
+        <h1 class="slide-heading">HTTP klientai</h1>
+        <ul>
+          <li>Naršyklės</li>
+          <li>CURL</li>
+          <li>Postman</li>
+          <li>Insomnia REST</li>
+        </ul>
+        <img class="tieto-logo" src="images/Tieto.png"/>
+      </div>
+    </div>
+  </div>
+  <script src="node_modules/jquery/dist/jquery.js" type="text/javascript"></script>
+  <script src="node_modules/slick-carousel/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
